@@ -1,0 +1,91 @@
+// components/HelpingBrands.module.scss
+.container {
+    padding: 50px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 35rem;
+}
+
+.heading {
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 450;
+    letter-spacing: normal;
+    margin-top: 5rem;
+}
+
+.line {
+    width: 700px;
+    border: none;
+    height: 2px;
+    background-color: grey;
+    margin: 20px auto;
+    opacity: 0.5;
+}
+
+.p {
+    font-family: 'Dennis Sans', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: var(--text);
+    font-size: 15px; /* Corrected the unit */
+    line-height: 1.66;
+    margin-bottom: 1em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 8rem;
+}
+
+.left {
+    flex: 1;
+    margin-right: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.right {
+    flex: 1;
+    overflow: hidden;
+}
+
+.arrowText {
+    display: flex;
+    align-items: center; /* Center the items vertically */
+}
+
+.arrowText svg {
+    margin-right: 30px; /* Add margin on the right side of the SVG */
+    fill: #232326; /* Add fill color */
+    margin-bottom: 7rem;
+}
+
+.arrowText p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0; /* Remove default margin */
+}
+
+.right img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.middle {
+    flex: 1;
+    margin: 0 20px; /* Adjust margin as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the left */
+}
+.dots{
+    margin-top: 1rem;
+}
